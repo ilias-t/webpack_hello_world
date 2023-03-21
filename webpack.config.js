@@ -1,4 +1,5 @@
 const path = require("path");
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer");
 
 module.exports = {
   mode: process.NODE_ENV || "development",
@@ -10,10 +11,10 @@ module.exports = {
   module: {
     rules: [
       {
-        // scss
         test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
+  plugins: [new BundleAnalyzerPlugin.BundleAnalyzerPlugin()],
 };

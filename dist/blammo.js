@@ -176,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ \"./node_modules/uuid/dist/esm-browser/v4.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\n\n\n\nconsole.log(\"Hello World!\", (0,uuid__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\n// Next: Add some Sass...\n\n\n//# sourceURL=webpack://webpack_hello_world/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ \"./node_modules/uuid/dist/esm-browser/v4.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\n\n\n\nconsole.log(\"Hello World!\", (0,uuid__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\n// Next: Add a plugin to analyze our bundle...\n\n\n//# sourceURL=webpack://webpack_hello_world/./src/index.js?");
 
 /***/ })
 
