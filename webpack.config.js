@@ -1,5 +1,5 @@
 const path = require("path");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: process.NODE_ENV || "development",
@@ -16,5 +16,14 @@ module.exports = {
       },
     ],
   },
-  plugins: [new BundleAnalyzerPlugin.BundleAnalyzerPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "src/index.html",
+    }),
+  ],
+  devServer: {
+    static: "./dist",
+    port: 3000,
+  },
+  devtool: "inline-source-map",
 };
