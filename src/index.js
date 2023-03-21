@@ -1,3 +1,5 @@
-console.log("Hello World!");
+import { v4 as uuidv4 } from "uuid";
 
-// Step 2: Import a module...
+console.log("Hello World!", uuidv4());
+
+// Next: Add a webpack config file...
